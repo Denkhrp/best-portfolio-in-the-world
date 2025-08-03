@@ -54,3 +54,17 @@ h2{
 
 
 }
+@media (max-width: 1050px) {
+        .flex1 {
+            flex-direction: column; /* stack vertically */
+        }
+
+    /* Reorder elements */
+    .element1 { order: 1; }   /* Name */
+    .element2 { order: 2; }   /* Description */
+}
+@media (max-width: 700px) {
+    body{
+        padding: 0px;
+    }
+}
