@@ -1,0 +1,56 @@
+body{
+    background-color: #111;
+    color: #d1d5db;
+    padding: 60px 100px ;
+    min-height: 100vh;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+}
+h1,h2, p {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+p{
+    color : #b9bbbe;
+    line-height: 2;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+.element1{
+    width: 700px;
+    height: 500px;
+}
+.element2{
+    width: 600px;
+    padding-top: 30px;
+}
+.icons svg{
+    fill: white;     
+    transition: fill 0.3s;
+    cursor: pointer;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row ;
+    gap: 40px;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+.icons svg:hover {
+    fill: gray;      /* hover effect */
+}
+.flex2{
+    display : flex;
+    flex-direction: column;
+
+
+}
